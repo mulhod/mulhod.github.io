@@ -3,13 +3,87 @@
 <head>
 <link rel="stylesheet" type="text/css" href="mattstyle.css">
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+	
+	$( "#research-content" ).hide();
+	$( "#personal-content" ).hide();
+
+	$("#bio").click(function(){
+  		$( "#bio-content" ).show();
+  		$( "#research-content" ).hide();
+  		$( "#personal-content" ).hide();
+  		$( ".link" ).css( "color" , "#B36666")
+  		$( "#bio" ).css( "color" , "#800000" )	
+	});
+	
+	$( "#research" ).click(function(){
+  		$( "#research-content" ).show();
+  		$( "#personal-content" ).hide();
+  		$( "#bio-content" ).hide();
+  		$( ".link" ).css( "color" , "#B36666")
+  		$( "#research" ).css( "color" , "#800000" )	
+	});
+	
+	$( "#personal" ).click(function(){
+  		$( "#personal-content" ).show();
+  		$( "#bio-content" ).hide();
+  		$( "#research-content" ).hide();
+  		$( ".link" ).css( "color" , "#B36666")
+  		$( "#personal" ).css( "color" , "#800000" )	
+	});
+
+});
+</script>
+
 </head>
 
 <body>
-<div id="picbox">
-<img src="/images/mattpic.jpg" alt="Matt at Blue Mountain">
+
+<div id="infobox">
+<h1>Matt Mulholland</h1>
+<p>Assistant Research Engineer,
+<a href="http://www.ets.org/research/topics/as_nlp/" alt="ETS NLP" target="_blank">Educational Testing Service</a></p>
+<p><a href="mailto:mulhodm@gmail.com">Email me</a></p>
+
+
 </div>
 
+<div id="picbox">
+<img src="/images/mattpic.jpg" alt="Matt at Blue Mountain" id="profile">
+</div>
+
+<div id="linkbox">
+
+<div class="link" id="bio">bio</div>
+
+<div class="link" id="research">research</div>
+
+<div class="link" id="personal">personal</div>
+
+</div>
+
+
+<div id="contentbox">
+
+<div id="bio-content">
+<p>Some stuff about me</p>
+<p>Maybe another paragraph about me</p>
+</div>
+
+<div id="research-content">
+<p>Some stuff about research</p>
+<p>Maybe another paragraph about my research</p>
+</div>
+
+<div id="personal-content">
+<p>Some stuff about my interests</p>
+<p>Bob Dylan, George Harrison</p>
+<p>Hockey</p>
+</div>
+
+</div>
 
 </body>
 

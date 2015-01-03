@@ -1,23 +1,65 @@
 body {
-	background-color:white;
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+	background-color: white;
+	color: #808080;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
 h1 {
-	
+	color: #800000;
+	font-size: 2.5em;
 }
 
-a {
-	
+a:link {
+	color: #B36666;
+	text-decoration: none;
 }
 
-#picbox {
-	
+a:visited {
+	color: #505050;
+	text-decoration: none;
+}
+
+a:active {
+    color: #800000;
 }
 
 #infobox {
-	
+	width: 50%;
+	float: left;
 }
 
-.contentbox {
-	
+#picbox {
+	width: 50%;
+	float: left;
+}
+
+#linkbox {
+	clear: both;
+	width: 100%;
+}
+
+#contentbox {
+	clear: both;
+	width: 100%;
+	border: 3px double #505050;
+	min-height: 200px;
+	max-height: 400px;
+	padding: 12px;
+}
+
+#profile {
+	padding: 20%;
+}
+
+.link {
+	width: 33%;
+	text-align: center;
+	float: left;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	color: #B36666;
+	cursor:pointer;
 }
