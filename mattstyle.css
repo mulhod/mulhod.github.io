@@ -1,5 +1,5 @@
 body {
-	width:710px;
+	width:700px;
 	margin-left:auto;
 	margin-right:auto;
 	background-color: white;
@@ -59,7 +59,7 @@ a:active {
 }
 
 #profile {
-	padding: 5%;
+	float:right;
 }
 
 .link {
