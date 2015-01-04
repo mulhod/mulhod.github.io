@@ -2,6 +2,7 @@ body {
 	width:700px;
 	margin-left:auto;
 	margin-right:auto;
+	margin-top:24px;
 	background-color: white;
 	color: #808080;
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
@@ -53,7 +54,7 @@ a:active {
 	clear: both;
 	width: 100%;
 	border: 3px double #505050;
-	min-height: 200px;
+	min-height: 250px;
 	max-height: 500px;
 	padding: 12px;
 	border-radius: 0px 8px 8px 8px;
