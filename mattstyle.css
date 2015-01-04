@@ -26,9 +26,16 @@ a:active {
     color: #800000;
 }
 
+#topbox {
+	height:400px;
+}
+
 #infobox {
 	width: 50%;
 	float: left;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 #picbox {
@@ -46,20 +53,25 @@ a:active {
 	width: 100%;
 	border: 3px double #505050;
 	min-height: 200px;
-	max-height: 400px;
+	max-height: 500px;
 	padding: 12px;
+	border-radius: 0px 8px 8px 8px;
 }
 
 #profile {
-	padding: 10%;
+	padding: 5%;
 }
 
 .link {
-	width: 33%;
+	width: 20%;
 	text-align: center;
 	float: left;
-	padding-top: 12px;
-	padding-bottom: 12px;
-	color: #B36666;
+	padding: 5px 0px;
+	margin: 0px 2px;
+	color: #800000;
 	cursor:pointer;
+	border-top: 1px solid #505050;
+	border-left: 1px solid #505050;
+	border-right: 1px solid #505050;
+	border-radius: 10px 10px 0px 0px;
 }

@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -9,29 +10,31 @@ $(document).ready(function(){
 	
 	$( "#research-content" ).hide();
 	$( "#personal-content" ).hide();
+	$( ".link:not(#bio)" ).css( {"background-color":"#dddddd","width":"10%"} ).fadeTo("fast",0.5);
+	
 
 	$("#bio").click(function(){
-  		$( "#bio-content" ).show();
-  		$( "#research-content" ).hide();
-  		$( "#personal-content" ).hide();
-  		$( ".link" ).css( "color" , "#B36666")
-  		$( "#bio" ).css( "color" , "#800000" )	
+  		$( "#research-content" ).hide(10);
+  		$( "#personal-content" ).hide(10);
+  		$( "#bio-content" ).show(700);
+  		$( ".link:not(#bio)" ).css("background-color","#dddddd").animate( {width:"10%"} ).fadeTo(700,0.5);
+  		$( "#bio" ).css("background-color","initial").animate( {width:"20%"} ).fadeTo(700,1);
 	});
 	
 	$( "#research" ).click(function(){
-  		$( "#research-content" ).show();
-  		$( "#personal-content" ).hide();
-  		$( "#bio-content" ).hide();
-  		$( ".link" ).css( "color" , "#B36666")
-  		$( "#research" ).css( "color" , "#800000" )	
+  		$( "#personal-content" ).hide(10);
+  		$( "#bio-content" ).hide(10);
+  		$( "#research-content" ).show(700);
+  		$( ".link:not(#research)" ).css("background-color","#dddddd").animate( {width:"10%"} ).fadeTo(700,0.5);
+  		$( "#research" ).css("background-color","initial").animate( {width:"20%"} ).fadeTo(700,1);
 	});
 	
 	$( "#personal" ).click(function(){
-  		$( "#personal-content" ).show();
-  		$( "#bio-content" ).hide();
-  		$( "#research-content" ).hide();
-  		$( ".link" ).css( "color" , "#B36666")
-  		$( "#personal" ).css( "color" , "#800000" )	
+  		$( "#bio-content" ).hide(10);
+  		$( "#research-content" ).hide(10);
+  		$( "#personal-content" ).show(700);
+  		$( ".link:not(#personal)" ).css("background-color","#dddddd").animate( {width:"10%"} ).fadeTo(700,0.5);
+  		$( "#personal" ).css("background-color","initial").animate( {width:"20%"} ).fadeTo(700,1);
 	});
 
 });
@@ -41,18 +44,20 @@ $(document).ready(function(){
 
 <body>
 
+<div id="topbox">
 <div id="infobox">
 <h1>Matt Mulholland</h1>
-<p>Assistant Research Engineer,
+<p>Assistant Research Engineer,<br />
 <a href="http://www.ets.org/research/topics/as_nlp/" alt="ETS NLP" target="_blank">Educational Testing Service</a></p>
 <p><a href="mailto:mulhodm@gmail.com">Email me</a></p>
-
-
 </div>
 
 <div id="picbox">
 <img src="/images/mattpic.jpg" alt="Matt at Blue Mountain" id="profile">
 </div>
+
+</div>
+
 
 <div id="linkbox">
 
