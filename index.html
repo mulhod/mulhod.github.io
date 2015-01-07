@@ -10,14 +10,17 @@ $(document).ready(function(){
 	
 	$( "#research-content" ).hide();
 	$( "#personal-content" ).hide();
-	$( ".link:not(#bio)" ).css( {"background-color":"#dddddd","width":"10%"} ).fadeTo("fast",0.5);
+	$( ".link:not(#bio)" ).css( {"background-color":"#dddddd",
+                               "width":"10%"} ).fadeTo("fast",0.5);
 	
 
 	$("#bio").click(function(){
   		$( "#research-content" ).hide(10);
   		$( "#personal-content" ).hide(10);
   		$( "#bio-content" ).show(700);
-  		$( ".link:not(#bio)" ).css("background-color","#dddddd").animate( {width:"10%"} ).fadeTo(700,0.5);
+  		$( ".link:not(#bio)" ).css("background-color",
+                                   "#dddddd").animate( {width:"10%"} 
+                                                      ).fadeTo(700,0.5);
   		$( "#bio" ).css("background-color","initial").animate( {width:"20%"} ).fadeTo(700,1);
 	});
 	
@@ -25,16 +28,24 @@ $(document).ready(function(){
   		$( "#personal-content" ).hide(10);
   		$( "#bio-content" ).hide(10);
   		$( "#research-content" ).show(700);
-  		$( ".link:not(#research)" ).css("background-color","#dddddd").animate( {width:"10%"} ).fadeTo(700,0.5);
-  		$( "#research" ).css("background-color","initial").animate( {width:"20%"} ).fadeTo(700,1);
+  		$( ".link:not(#research)" ).css("background-color",
+                                        "#dddddd").animate( {width:"10%"}
+                                                           ).fadeTo(700,0.5);
+  		$( "#research" ).css("background-color",
+                             "initial").animate( {width:"20%"} ).fadeTo(700,
+                                                                        1);
 	});
 	
 	$( "#personal" ).click(function(){
   		$( "#bio-content" ).hide(10);
   		$( "#research-content" ).hide(10);
   		$( "#personal-content" ).show(700);
-  		$( ".link:not(#personal)" ).css("background-color","#dddddd").animate( {width:"10%"} ).fadeTo(700,0.5);
-  		$( "#personal" ).css("background-color","initial").animate( {width:"20%"} ).fadeTo(700,1);
+  		$( ".link:not(#personal)" ).css("background-color",
+                                        "#dddddd").animate( {width:"10%"}
+                                                           ).fadeTo(700,0.5);
+  		$( "#personal" ).css("background-color",
+                             "initial").animate( {width:"20%"} ).fadeTo(700,
+                                                                        1);
 	});
 
 });
@@ -92,6 +103,10 @@ $(document).ready(function(){
 <p>The only sport that I actually play -- and have played since I was a little kid -- is hockey. People don't often think of Philadelphia as a hockey town, but all I know is that, as a youth, this is the sport we played in the streets in Philadelphia. There was even a public ice hockey rink a few blocks from my house. Hockey holds a special place in the heart of many Philadelphians. Transplanted to Ewing, NJ, I have found that there is also a large group of people who play hockey on a regular basis. If anybody would like to join, we usually get together for pick-up games on the weekends. More information can be found at the <a href="https://www.facebook.com/groups/250643421704191/">Ewing Street Hockey Facebook group page.</a></p>
 </div>
 
+</div>
+
+<div class="footer">
+<p>Creator and #1: Melissa Lopez</p>
 </div>
 
 </body>

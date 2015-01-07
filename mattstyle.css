@@ -1,26 +1,26 @@
 body {
-	width:700px;
-	margin-left:auto;
-	margin-right:auto;
-	margin-top:48px;
-	background-color: white;
-	color: #808080;
-	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    width:700px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:48px;
+    background-color: white;
+    color: #808080;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
 h1 {
-	color: #800000;
-	font-size: 2.5em;
+    color: #800000;
+    font-size: 2.5em;
 }
 
 a:link {
-	color: #B36666;
-	text-decoration: none;
+    color: #B36666;
+    text-decoration: none;
 }
 
 a:visited {
-	color: #505050;
-	text-decoration: none;
+    color: #505050;
+    text-decoration: none;
 }
 
 a:active {
@@ -28,52 +28,71 @@ a:active {
 }
 
 #topbox {
-	height:350px;
-	width:100%;
+    height:350px;
+    width:100%;
 }
 
 #infobox {
-	width: 50%;
-	float: left;
+    width: 50%;
+    float: left;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
 }
 
 #picbox {
-	width: 50%;
-	float: left;
+    width: 50%;
+    float: left;
 }
 
 #linkbox {
-	clear: both;
-	width: 100%;
+    clear: both;
+    width: 100%;
 }
 
 #contentbox {
-	clear: both;
-	width: 100%;
-	border: 3px double #505050;
-	min-height: 250px;
-	max-height: 500px;
-	padding: 12px;
-	border-radius: 0px 8px 8px 8px;
+    clear: both;
+    width: 100%;
+    border: 3px double #505050;
+    min-height: 250px;
+    max-height: 5000px;
+    padding: 12px;
+    border-radius: 0px 8px 8px 8px;
 }
 
 #profile {
-	float:right;
+    float:right;
+}
+
+* {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -4em;
+}
+
+.footer, .push {
+    height: 4em;
 }
 
 .link {
-	width: 20%;
-	text-align: center;
-	float: left;
-	padding: 5px 0px;
-	margin: 0px 2px;
-	color: #800000;
-	cursor:pointer;
-	border-top: 1px solid #505050;
-	border-left: 1px solid #505050;
-	border-right: 1px solid #505050;
-	border-radius: 10px 10px 0px 0px;
+    width: 20%;
+    text-align: center;
+    float: left;
+    padding: 5px 0px;
+    margin: 0px 2px;
+    color: #800000;
+    cursor:pointer;
+    border-top: 1px solid #505050;
+    border-left: 1px solid #505050;
+    border-right: 1px solid #505050;
+    border-radius: 10px 10px 0px 0px;
 }
