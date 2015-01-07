@@ -9,39 +9,56 @@
 $(document).ready(function(){
 	
 	$( "#research-content" ).hide();
+	$( "#education-content" ).hide();
 	$( "#personal-content" ).hide();
 	$( ".link:not(#bio)" ).css( {"background-color":"#dddddd",
-                               "width":"10%"} ).fadeTo("fast",0.5);
+                               "width":"15%"} ).fadeTo("fast",0.5);
 	
 
 	$("#bio").click(function(){
   		$( "#research-content" ).hide(10);
+  		$( "#education-content" ).hide(10);
   		$( "#personal-content" ).hide(10);
   		$( "#bio-content" ).show(700);
   		$( ".link:not(#bio)" ).css("background-color",
-                                   "#dddddd").animate( {width:"10%"} 
+                                   "#dddddd").animate( {width:"15%"} 
                                                       ).fadeTo(700,0.5);
   		$( "#bio" ).css("background-color","initial").animate( {width:"20%"} ).fadeTo(700,1);
 	});
 	
 	$( "#research" ).click(function(){
+        $( "#education-content" ).hide(10);
   		$( "#personal-content" ).hide(10);
   		$( "#bio-content" ).hide(10);
   		$( "#research-content" ).show(700);
   		$( ".link:not(#research)" ).css("background-color",
-                                        "#dddddd").animate( {width:"10%"}
+                                        "#dddddd").animate( {width:"15%"}
                                                            ).fadeTo(700,0.5);
   		$( "#research" ).css("background-color",
                              "initial").animate( {width:"20%"} ).fadeTo(700,
                                                                         1);
 	});
+    
+    $( "#education" ).click(function(){
+        $( "#bio-content" ).hide(10);
+        $( "#research-content" ).hide(10);
+        $( "#personal-content" ).hide(10);
+        $( "#education-content" ).show(700);
+        $( ".link:not(#education)" ).css("background-color",
+                                        "#dddddd").animate( {width:"15%"}
+                                                           ).fadeTo(700,0.5);
+        $( "#education" ).css("background-color",
+                              "initial").animate( {width:"20%"} ).fadeTo(700,
+                                                                         1);
+    });
 	
 	$( "#personal" ).click(function(){
   		$( "#bio-content" ).hide(10);
   		$( "#research-content" ).hide(10);
+  		$( "#education-content" ).hide(10);
   		$( "#personal-content" ).show(700);
   		$( ".link:not(#personal)" ).css("background-color",
-                                        "#dddddd").animate( {width:"10%"}
+                                        "#dddddd").animate( {width:"15%"}
                                                            ).fadeTo(700,0.5);
   		$( "#personal" ).css("background-color",
                              "initial").animate( {width:"20%"} ).fadeTo(700,
@@ -82,6 +99,8 @@ src="http://static.viewbook.com/images/social_icons/facebook_16.png"/></a></p>
 
 <div class="link" id="research">research</div>
 
+<div class="link" id="education">education</div>
+
 <div class="link" id="personal">personal</div>
 
 </div>
@@ -90,45 +109,67 @@ src="http://static.viewbook.com/images/social_icons/facebook_16.png"/></a></p>
 <div id="contentbox">
 
 <div id="bio-content">
-<p>I have worked at Educational Testing Service in the automated scoring and natural language processing group since 2011, first as a senior research assistant and now as an assistant research engineer since 2014. Currently, I am completing an MS program in applied linguistics and a certificate in computational linguistics at Montclair State University. My interests include various sub-fields of natural language processing, especially in relation to applications to automated scoring technology, and computer science, especially Python programming.</p>
+<p>I have worked at Educational Testing Service in the automated scoring and natural language processing group since 2011, first as a senior research assistant and now as an assistant research engineer since 2014. Currently, I am completing an MS program in applied linguistics and a certificate in computational linguistics at <a href="http://www.montclair.edu/chss/linguistics/">Montclair State University</a>. My interests include various sub-fields of natural language processing, especially in relation to applications to automated scoring technology, and computer science, especially Python programming.</p>
 </div>
 
 <div id="research-content">
 <h1>Research Collaborations</h1>
 <br>
-<p>Heilman, M., Cahill, A., Madnani, N., Lopez, M., Mulholland, M., & Tetreault, J. (2014). Predicting Grammaticality on an Ordinal Scale. Accepted to ACL 2014 and will be published in conference proceedings.</p>
+<p>Heilman, M., Cahill, A., Madnani, N., Lopez, M., Mulholland, M., & Tetreault, J. (2014). Predicting Grammaticality on an Ordinal Scale. Published in proceedings of ACL 2014.</p>
 <br>
 <p>Mulholland, M. & Quinn, J. (2013). Suicidal Tendencies: The Automatic Classification of Suicidal and Non-Suicidal Lyricists Using NLP. Published in proceedings of IJCNLP 2013.</p>
 <br>
 <p>Flor, M., Futagi, Y., Lopez, M., & Mulholland, M. (2013). Patterns of misspellings in L2 English – a view from the ETS Spelling Corpus. Presented at Learner Corpus Research Conference (LCR2013), Bergen, Norway, September 27–29, 2013.</p>
 </div>
 
+<div id="education-content">
+<h1>Education</h1>
+<br>
+<h2>Graduate</h2>
+<br>
+<p><strong><a href="http://www.montclair.edu/chss/linguistics/">Montclair State University</a></strong></p>
+<p>MS in Applied Linguistics</p>
+<p>Certificate in Computational Linguistics</p>
+<p>Expected graduation date: 2015</p>
+<br>
+<h2>Undergraduate</h2>
+<br>
+<p><strong><a href="http://www.upenn.edu/">University of Pennsylvania</a></strong></p>
+<p>BA in Linguistics and English</p>
+<p>Summa Cum Laude and with Distinction in English</p>
+<p>Graduated in 2008</p>
+</div>
+
 <div id="personal-content">
 <h1>Music</h1>
 <br>
-<p>I am a fan of various types of music, including rock, blues, and folk, but especially music that involves slide guitar. One of my most distinguishing characteristics is that I follow -- perhaps to an unhealthy degree -- three main artists and I listen to these three almost exclusively: Bob Dylan, George Harrison, and Elliott Smith. I believe that Bob Dylan, as a lyricist, is unparalleled. In fact, I would go so far as to say that he belongs among the greatest English writers of all time, including writers like Shakespeare and Vladimir Nabakov. George Harrison, on the other hand, I like mainly due to his other-wordly slide guitar compositions. It speaks volumes to me that, though he was not often now held in high regard by his bandmates and was only allowed a song or two on any given Beatles record, he was still able to produce some of the most memorable Beatles songs, including "Something", "Here Comes the Sun", and "While My Guitar Gently Weeps", all of which do not even contain slide guitar parts. Last but certainly not least, Elliott Smith rounds out my top three. He practically falls between Dylan and Harrison, musically speaking, with his exquisite melodies and strangely penetrating lyrics. It is to me a blessing that there are so many collaborations between the first two and so many covers of Dylan and Harrison songs by Smith. It feels as though the connection between the trio that I clearly see is validated. However, while Harrison and Smith frequently trade spots in my ranking of the three, Bob Dylan holds the number one spot by a long shot.</p>
+<p>I am a fan of various types of music, including rock, blues, and folk, but especially music that involves slide guitar. One of my most distinguishing characteristics is that I follow -- perhaps to an unhealthy degree -- three main artists and I listen to these three almost exclusively: Bob Dylan, George Harrison, and Elliott Smith. I believe that Bob Dylan, as a lyricist, is unparalleled. In fact, I would go so far as to say that he belongs among the greatest English writers of all time, including writers like Shakespeare and Vladimir Nabokov. George Harrison, on the other hand, I like mainly due to his other-wordly slide guitar compositions. It speaks volumes to me that, though he was not often now held in high regard by his bandmates and was only allowed a song or two on any given Beatles record, he was still able to produce some of the most memorable Beatles songs, including "Something", "Here Comes the Sun", and "While My Guitar Gently Weeps", all of which do not even contain slide guitar parts. Last but certainly not least, Elliott Smith rounds out my top three. He practically falls between Dylan and Harrison, musically speaking, with his exquisite melodies and strangely penetrating lyrics. It is to me a blessing that there are so many collaborations between the first two and so many covers of Dylan and Harrison songs by Smith. It feels as though the connection between the trio that I clearly see is validated. However, while Harrison and Smith frequently trade spots in my ranking of the three, Bob Dylan holds the number one spot by a long shot.</p>
 <br>
 <h1>TV</h1>
 <br>
 <h2>Drama</h2>
 <br>
-<p>I enjoy many television shows and am always on the lookout for the next great one. However, not unlike my tastes in music, I consider three series to be greatest of all time: Breaking Bad, The Sopranos, and The Wire. Another parallel to my top musical trio is that one of these shows is, I believe, far and away the greatest and that is Breaking Bad. Never before or since have I witnessed such expert storytelling, cinematography, and character development. Breaking Bad revolutionized television as we know it. This series is practically a study in character development: milquetoast father and high school teacher evolves into ruthless drug kingpin. In the beginning it is hard not to be on the side of Walter White. But, by the end, it is hardly even a question as to whether his actions can be justified: he becomes the embodiment of evil. Coming in second and third, frequently trading places in my mind, are The Wire and The Sopranos. It mostly depends of which one I have been watching most recently.</p>
+<p>I enjoy many television shows and am always on the lookout for the next great one. However, not unlike my tastes in music, I consider three series to be the greatest of all time: Breaking Bad, The Sopranos, and The Wire. Another parallel to my top musical trio is that one of these shows is, I believe, far and away the greatest. That show is Breaking Bad. Never before or since have I witnessed such expert storytelling, cinematography, and character development. Breaking Bad revolutionized television as we know it. This series is practically a study in character development: milquetoast father and high school teacher evolves into ruthless drug kingpin. In the beginning it is hard not to be on the side of Walter White. But, by the end, it is hardly even a question as to whether his actions can be justified: he becomes the embodiment of evil. Coming in second and third, frequently trading places in my mind, are The Wire and The Sopranos. It mostly depends on which one I have been watching most recently.</p>
 <br>
-<p>There are certainly other shows that I consider to be great, even if not in the same league as the three series mentioned above. These include Deadwood, Mad Men, Dexter, The Shield, earlier seasons of The Walking Dead, the first fantastic season of the new series True Detective, Battlestar Gallactica, Fargo, The Americans, and many others.</p>
+<p>There are certainly other shows that I consider to be great, even if not in the same league as the three series mentioned above. These include Deadwood, Mad Men, Dexter, The Shield, earlier seasons of The Walking Dead, the first fantastic season of the new series True Detective, Battlestar Gallactica, Fargo, The Americans, Rectify, and many others.</p>
 <br>
 <h2>Comedy, etc.</h2>
 <br>
-<p>Seinfeld, Mr. Show, Curb Your Enthusiasm, Parks and Recreation, Scrubs, etc.</p>
+<p>While I don't treat comedy the same way I treat drama, there is a place for everything. My favorite shows are Seinfeld, Mr. Show, Curb Your Enthusiasm, Parks and Recreation, Scrubs, etc.</p>
 <br>
-<p>Favorite cartoons/sketch shows of mine: Tim and Eric Awesome Show Great Job!, Tim and Eric Bedtime Stories, Tom Goes to the Mayor, Metalocalypse, Frisky Dingo, Archer, Squidbillies, Upright Citizens Brigade, Kids in the Hall, and many more.</p>
+<p>Favorite cartoons/comedy sketch shows: Tim and Eric Awesome Show Great Job!, Tim and Eric Bedtime Stories, Tom Goes to the Mayor, Metalocalypse, Frisky Dingo, Archer, Squidbillies, Upright Citizens Brigade, Kids in the Hall, and many more.</p>
 <br>
 <h1>Sports</h1>
 <br>
-<p>I enjoy watching all major sports, but NHL hockey is the one that I follow most closely. I also follow NFL and college football and MLB baseball and I am an occasional basketball fan. Since I grew up in and around Philadelphia, my favorite teams are all of the Philadelphia teams. This topic actually is something that I have strong feelings about: you don't get to choose your teams just like you don't get to choose your parents. There is <strong><i>no choice</i></strong>. In my mind, the only situation where you do get to "choose" a team is with foreign sports leagues/teams. I will allow some front-running fan to choose whatever soccer team is dominating Europe or whatever team they became a fan of while living abroad perhaps. Other than that, you can't choose a team just because your dad liked it or just because they were winning for a couple years when you were seven years old or for any other equally misguided reason. If you do, you are a front-runner at worst or just dumb at best. I will allow that certain non-local teams can have a special place in your heart, but only as second -- and a far distant second, at that -- favorite teams. You might validly be asking yourself, "But why do the owners, players, etc. deserve this?" The answer is that they don't deserve it and they never will. They are merely gatekeepers for institutions that will be there long after they're gone (unless, of course, in cases of betrayal: see <a href="http://en.wikipedia.org/wiki/Cleveland_Browns_relocation_controversy">Cleveland Browns</a> or <a href="http://en.wikipedia.org/wiki/Baltimore_Colts_relocation_to_Indianapolis">Baltimore Colts</a>). You might also be wondering if I would want my own children in the future to be fans of the same Philadelphia teams that I follow. I assure you that I would be consistent on this point: if I raised children in Kansas City, I would expect them to be fans of Kansas City sports teams and I would hope that they would make a tiny bit of room for at least some Philadelphia teams, but only as second favorites.</p>
+<p>I enjoy watching all major sports, but NHL hockey is the one that I follow most closely. I also follow NFL and college football and MLB baseball and I am an occasional basketball fan. I also take part in an annual fantasy baseball league, in which I am proud to say I took first place in 2014.</p>
+<br>
+<h2>Teams</h2>
+<br>
+<p>Since I grew up in and around Philadelphia (first Kensington and then Audubon, which is in the suburbs of New Jersey), my favorite teams are all of the Philadelphia teams. The topic of teams and fandom is something that I have strong feelings about: you don't get to choose your teams just like you don't get to choose your parents. There is <strong><i>no choice</i></strong>. In my mind, the only situation where you do get to "choose" a team is with foreign sports leagues/teams. I will allow some front-running fan to choose whatever soccer team is dominating Europe or whatever team they became a fan of while living abroad perhaps. Other than that, you can't choose a team just because your dad liked it or just because they were winning for a couple years when you were seven years old or for any other equally misguided reason. If you do, you are a front-runner at worst or just not a real fan at best. I will allow that certain non-local teams can have a special place in your heart, but only as second favorite -- and a far distant second, at that -- teams. You might validly be asking yourself, "But why do the owners, players, etc. deserve this kind of following?" The answer is that they don't deserve it and they never will. They are merely gatekeepers for institutions that will be there long after they're gone (unless, of course, in cases of betrayal: see the <a href="http://en.wikipedia.org/wiki/Cleveland_Browns_relocation_controversy">Cleveland Browns</a> (very soon after leaving for Baltimore, another franchise taking the same name popped up) or the <a href="http://en.wikipedia.org/wiki/Baltimore_Colts_relocation_to_Indianapolis">Baltimore Colts</a>, who left town for Indianapolis under cover of night). You might also be wondering if I would want my own children in the future to be fans of the same Philadelphia teams that I follow. I assure you that I would be consistent on this point: if I raised children in Kansas City, I would expect them to be fans of Kansas City sports teams. I would hope that they would make a tiny bit of room in their hears for at least some Philadelphia teams, but only as second favorites.</p>
 <br>
 <h2>Hockey</h2>
 <br>
-<p>The only sport that I actually play -- and have played since I was a little kid -- is hockey. People don't often think of Philadelphia as a hockey town, but all I know is that, as a youth, this is the sport we played in the streets in Philadelphia. There was even a public ice hockey rink a few blocks from my house. Hockey holds a special place in the heart of many Philadelphians. Transplanted to Ewing, NJ, I have found that there is even a large group of people here who play hockey on a regular basis. If anybody would like to join, we usually get together for pick-up games on the weekends. More information can be found at the <a href="https://www.facebook.com/groups/250643421704191/">Ewing Street Hockey Facebook group page.</a></p>
+<p>The only sport that I actually play -- and have played since I was a little kid -- is hockey. People don't often think of Philadelphia as a hockey town, but all I know is that, as a youth, this is the sport we played in the streets in Philadelphia. There was even a public ice hockey rink a few blocks from my house. Hockey holds a special place in the hearts of many Philadelphians. Transplanted to Ewing, NJ, I have found that there is even a large group of people here who play hockey on a regular basis. If anybody would like to join, we usually get together for pick-up games on the weekends. More information can be found at the <a href="https://www.facebook.com/groups/250643421704191/">Ewing Street Hockey Facebook group page.</a></p>
 </div>
 
 </div>
