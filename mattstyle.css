@@ -102,3 +102,22 @@ html, body {
     border-right: 1px solid #505050;
     border-radius: 10px 10px 0px 0px;
 }
+
+p2.trigger{
+    margin-bottom:7px;
+    margin-top:-5px;
+}
+
+.toggle_container{
+    margin-bottom:10px;
+}
+
+.toggle_container p2{
+    margin:0px;
+}
+
+.toggle_container{
+    background:#f0f0f0;
+    clear: both;
+    font-size:100%;
+}
