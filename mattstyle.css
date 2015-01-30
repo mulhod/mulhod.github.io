@@ -103,16 +103,19 @@ html, body {
     border-radius: 10px 10px 0px 0px;
 }
 
-p2.trigger{
+h1.trigger{
     margin-bottom:7px;
     margin-top:-5px;
 }
+
+/* not sure why you have 3 different toggle container things here,
+	one was kind of weird looking too*/
 
 .toggle_container{
     margin-bottom:10px;
 }
 
-.toggle_container p2{
+.toggle_container{
     margin:0px;
 }
 
