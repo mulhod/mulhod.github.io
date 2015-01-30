@@ -3,68 +3,43 @@
 
 <head>
 <link rel="stylesheet" type="text/css" href="mattstyle.css">
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
+<!-- Javascript script for the section tabs' behaviors -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
-	
-	$( "#research-content" ).hide();
-	$( "#education-content" ).hide();
-	$( "#personal-content" ).hide();
-	$( ".link:not(#bio)" ).css( {"background-color":"#dddddd",
+    
+	$( ".content-text:not(#bio-content)" ).hide();
+    $( ".link:not(#bio)" ).css( {"background-color":"#dddddd",
                                "width":"15%"} ).fadeTo("fast",0.5);
-	
-
-	$("#bio").click(function(){
-  		$( "#research-content" ).hide(10);
-  		$( "#education-content" ).hide(10);
-  		$( "#personal-content" ).hide(10);
-  		$( "#bio-content" ).show(700);
-  		$( ".link:not(#bio)" ).css("background-color",
+    
+	$(".link").click(function(){
+		var linkIndex = $(this).index();
+		$( ".content-text" ).not( ':eq(linkIndex)' ).hide(10);
+		$( ".content-text" ).eq(linkIndex).show(700);
+		$( ".link").not($(this)).css("background-color",
                                    "#dddddd").animate( {width:"15%"} 
                                                       ).fadeTo(700,0.5);
-  		$( "#bio" ).css("background-color","initial").animate( {width:"20%"} ).fadeTo(700,1);
+		$( this ).css("background-color","initial").animate( {width:"20%"} ).fadeTo(700,1);
 	});
 	
-	$( "#research" ).click(function(){
-        $( "#education-content" ).hide(10);
-  		$( "#personal-content" ).hide(10);
-  		$( "#bio-content" ).hide(10);
-  		$( "#research-content" ).show(700);
-  		$( ".link:not(#research)" ).css("background-color",
-                                        "#dddddd").animate( {width:"15%"}
-                                                           ).fadeTo(700,0.5);
-  		$( "#research" ).css("background-color",
-                             "initial").animate( {width:"20%"} ).fadeTo(700,
-                                                                        1);
-	});
-    
-    $( "#education" ).click(function(){
-        $( "#bio-content" ).hide(10);
-        $( "#research-content" ).hide(10);
-        $( "#personal-content" ).hide(10);
-        $( "#education-content" ).show(700);
-        $( ".link:not(#education)" ).css("background-color",
-                                        "#dddddd").animate( {width:"15%"}
-                                                           ).fadeTo(700,0.5);
-        $( "#education" ).css("background-color",
-                              "initial").animate( {width:"20%"} ).fadeTo(700,
-                                                                         1);
-    });
-	
-	$( "#personal" ).click(function(){
-  		$( "#bio-content" ).hide(10);
-  		$( "#research-content" ).hide(10);
-  		$( "#education-content" ).hide(10);
-  		$( "#personal-content" ).show(700);
-  		$( ".link:not(#personal)" ).css("background-color",
-                                        "#dddddd").animate( {width:"15%"}
-                                                           ).fadeTo(700,0.5);
-  		$( "#personal" ).css("background-color",
-                             "initial").animate( {width:"20%"} ).fadeTo(700,
-                                                                        1);
-	});
 
+
+});
+</script>
+
+<!-- it's ok -->
+<!-- Javascript script for the behavior of expandable sections -->
+<script>
+$(document).ready(function(){
+	$(".toggle_container").hide();
+
+	$("h1.trigger").click(function(){
+		$( this ).next().slideToggle();
+	});
+	
+	
+	
 });
 </script>
 
@@ -78,8 +53,10 @@ $(document).ready(function(){
 <p>Assistant Research Engineer,<br />
 <a href="http://www.ets.org/research/topics/as_nlp/" alt="ETS NLP" target="_blank">Educational Testing Service</a></p>
 <p><a href="mailto:mulhodm@gmail.com">Email me</a></p>
-<p><script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
-<script type="IN/MemberProfile" data-id="https://www.linkedin.com/pub/matthew-mulholland/2a/2a9/350" data-format="hover"></script>&nbsp;<a href="https://www.facebook.com/profile.php?id=617663" target="_blank"><img
+<p>
+<!-- <script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
+<script type="IN/MemberProfile" data-id="https://www.linkedin.com/pub/matthew-mulholland/2a/2a9/350" data-format="hover"></script>&nbsp;<a href="https://www.facebook.com/profile.php?id=617663" target="_blank"> -->
+<img
 src="http://static.viewbook.com/images/social_icons/facebook_16.png"/>&nbsp;</a><a class="github-button" href="https://github.com/mulhod">Follow @mulhod</a></p>
 </div>
 
@@ -105,11 +82,11 @@ src="http://static.viewbook.com/images/social_icons/facebook_16.png"/>&nbsp;</a>
 
 <div id="contentbox">
 
-<div id="bio-content">
+<div id="bio-content" class="content-text">
 <p>I have worked at Educational Testing Service in the automated scoring and natural language processing group since 2011, first as a senior research assistant and now as an assistant research engineer since 2014. Currently, I am completing an MS program in applied linguistics and a certificate in computational linguistics at <a href="http://www.montclair.edu/chss/linguistics/">Montclair State University</a>. My interests include various sub-fields of natural language processing, especially in relation to applications to automated scoring technology, and computer science, especially Python programming.</p>
 </div>
 
-<div id="research-content">
+<div id="research-content" class="content-text">
 <h2>Collaborations</h2>
 <br>
 <p>Heilman, M., Cahill, A., Madnani, N., Lopez, M., Mulholland, M., & Tetreault, J. (2014). Predicting Grammaticality on an Ordinal Scale. Published in proceedings of ACL 2014.</p>
@@ -119,7 +96,7 @@ src="http://static.viewbook.com/images/social_icons/facebook_16.png"/>&nbsp;</a>
 <p>Flor, M., Futagi, Y., Lopez, M., & Mulholland, M. (2013). Patterns of misspellings in L2 English – a view from the ETS Spelling Corpus. Presented at Learner Corpus Research Conference (LCR2013), Bergen, Norway, September 27–29, 2013.</p>
 </div>
 
-<div id="education-content">
+<div id="education-content" class="content-text">
 <h2>Graduate</h2>
 <br>
 <p><strong><a href="http://www.montclair.edu/chss/linguistics/">Montclair State University</a></strong></p>
@@ -135,12 +112,17 @@ src="http://static.viewbook.com/images/social_icons/facebook_16.png"/>&nbsp;</a>
 <p>Graduated in 2008</p>
 </div>
 
-<div id="personal-content">
-<h1>Music</h1>
+<div id="personal-content" class="content-text">
+<h1 class="trigger">+ Music</h1>
+<div class="toggle_container">
+<div class="block">
 <br>
 <p>I am a fan of various types of music, including rock, blues, and folk, but especially music that involves slide guitar. One of my most distinguishing characteristics is that I follow -- perhaps to an unhealthy degree -- three main artists and I listen to these three almost exclusively: Bob Dylan, George Harrison, and Elliott Smith. I believe that Bob Dylan, as a lyricist, is unparalleled. In fact, I would go so far as to say that he belongs among the greatest English writers of all time, including writers like Shakespeare and Vladimir Nabokov. George Harrison, on the other hand, I like mainly due to his other-wordly slide guitar compositions. It speaks volumes to me that, though he was often not held in high regard by his own bandmates and was only allowed a song or two on any given Beatles record, he was still able to produce some of the most memorable Beatles songs, including "Something", "Here Comes the Sun", and "While My Guitar Gently Weeps", all of which do not even contain slide guitar parts. Last but certainly not least, Elliott Smith rounds out my top three. He practically falls between Dylan and Harrison, musically speaking, with his exquisite melodies and strangely penetrating lyrics. It is to me a blessing that there are so many collaborations between the first two and so many covers of Dylan and Harrison songs by Smith. It feels as though the connection between the trio that I clearly see is validated. However, while Harrison and Smith frequently trade spots in my ranking of the three, Bob Dylan holds the number one spot by a long shot.</p>
 <br>
-<h1>TV</h1>
+</div>
+</div>
+<h1 class="trigger">+ TV</h1>
+<div class="toggle_container">
 <br>
 <h2>Drama</h2>
 <br>
@@ -154,7 +136,9 @@ src="http://static.viewbook.com/images/social_icons/facebook_16.png"/>&nbsp;</a>
 <br>
 <p>Favorite cartoons/comedy sketch shows: Tim and Eric Awesome Show Great Job!, Tim and Eric Bedtime Stories, Tom Goes to the Mayor, Metalocalypse, Frisky Dingo, Archer, Squidbillies, Upright Citizens Brigade, Kids in the Hall, and many more.</p>
 <br>
-<h1>Sports</h1>
+</div>
+<h1 class="trigger">+ Sports</h1>
+<div class="toggle_container">
 <br>
 <p>I enjoy watching all major sports, but NHL hockey is the one that I follow most closely. I also follow NFL and college football and MLB baseball and I am an occasional basketball fan. I also take part in an annual fantasy baseball league, in which I am proud to say I took first place in 2014.</p>
 <br>
@@ -166,7 +150,7 @@ src="http://static.viewbook.com/images/social_icons/facebook_16.png"/>&nbsp;</a>
 <br>
 <p>The only sport that I actually play -- and have played since I was a little kid -- is hockey. People don't often think of Philadelphia as a hockey town, but all I know is that, as a youth, this is the sport we played in the streets in Philadelphia. There was even a public ice hockey rink a few blocks from my house. Hockey holds a special place in the hearts of many Philadelphians. Transplanted to Ewing, NJ, I have found that there is even a large group of people here who play hockey on a regular basis. If anybody would like to join, we usually get together for pick-up games on the weekends. More information can be found at the <a href="https://www.facebook.com/groups/250643421704191/">Ewing Street Hockey Facebook group page.</a></p>
 </div>
-
+</div>
 </div>
 
 <div class="footer">
