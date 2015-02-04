@@ -106,6 +106,7 @@ html, body {
 h1.trigger{
     margin-bottom:7px;
     margin-top:-5px;
+    cursor:pointer;
 }
 
 /* not sure why you have 3 different toggle container things here,
