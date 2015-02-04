@@ -22,8 +22,6 @@ $(document).ready(function(){
                                                       ).fadeTo(700,0.5);
 		$( this ).css("background-color","initial").animate( {width:"20%"} ).fadeTo(700,1);
 	});
-	
-
 
 });
 </script>
@@ -35,10 +33,19 @@ $(document).ready(function(){
 	$(".toggle_container").hide();
 
 	$("h1.trigger").click(function(){
+		var plusminus = $(this).children(':first');
+		
+		if (plusminus.text() == plusminus.data("text-swap")) {
+    		plusminus.text(plusminus.data("text-original"));
+  		} 
+  		else {
+    		plusminus.data("text-original", plusminus.text());
+    		plusminus.text(plusminus.data("text-swap"));
+ 		 }
+	
 		$( this ).next().slideToggle();
+
 	});
-	
-	
 	
 });
 </script>
@@ -93,7 +100,7 @@ src="http://static.viewbook.com/images/social_icons/facebook_16.png"/>&nbsp;</a>
 <br>
 <p>Mulholland, M. & Quinn, J. (2013). Suicidal Tendencies: The Automatic Classification of Suicidal and Non-Suicidal Lyricists Using NLP. Published in proceedings of IJCNLP 2013.</p>
 <br>
-<p>Flor, M., Futagi, Y., Lopez, M., & Mulholland, M. (2013). Patterns of misspellings in L2 English – a view from the ETS Spelling Corpus. Presented at Learner Corpus Research Conference (LCR2013), Bergen, Norway, September 27–29, 2013.</p>
+<p>Flor, M., Futagi, Y., Lopez, M., & Mulholland, M. (2013). Patterns of misspellings in L2 English – a view from the ETS Spelling Corpus. Presented at Learner Corpus Research Conference (LCR2013), Bergen, Norway, September 27-29, 2013.</p>
 </div>
 
 <div id="education-content" class="content-text">
@@ -113,7 +120,7 @@ src="http://static.viewbook.com/images/social_icons/facebook_16.png"/>&nbsp;</a>
 </div>
 
 <div id="personal-content" class="content-text">
-<h1 class="trigger">+ Music</h1>
+<h1 class="trigger">Music <span class="plusminus" data-text-swap="[-]">[+]</span></h1>
 <div class="toggle_container">
 <div class="block">
 <br>
@@ -121,7 +128,7 @@ src="http://static.viewbook.com/images/social_icons/facebook_16.png"/>&nbsp;</a>
 <br>
 </div>
 </div>
-<h1 class="trigger">+ TV</h1>
+<h1 class="trigger">TV <span class="plusminus" data-text-swap="[-]">[+]</span></h1>
 <div class="toggle_container">
 <br>
 <h2>Drama</h2>
@@ -137,7 +144,7 @@ src="http://static.viewbook.com/images/social_icons/facebook_16.png"/>&nbsp;</a>
 <p>Favorite cartoons/comedy sketch shows: Tim and Eric Awesome Show Great Job!, Tim and Eric Bedtime Stories, Tom Goes to the Mayor, Metalocalypse, Frisky Dingo, Archer, Squidbillies, Upright Citizens Brigade, Kids in the Hall, and many more.</p>
 <br>
 </div>
-<h1 class="trigger">+ Sports</h1>
+<h1 class="trigger">Sports <span class="plusminus" data-text-swap="[-]">[+]</span></h1>
 <div class="toggle_container">
 <br>
 <p>I enjoy watching all major sports, but NHL hockey is the one that I follow most closely. I also follow NFL and college football and MLB baseball and I am an occasional basketball fan. I also take part in an annual fantasy baseball league, in which I am proud to say I took first place in 2014.</p>
