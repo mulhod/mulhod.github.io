@@ -114,18 +114,9 @@ monospace {
     font-family: monospace;
 }
 
-/* not sure why you have 3 different toggle container things here,
-	one was kind of weird looking too*/
-
 .toggle_container{
     margin-bottom:10px;
-}
-
-.toggle_container{
     margin:0px;
-}
-
-.toggle_container{
     background:#f0f0f0;
     clear: both;
     font-size:100%;
