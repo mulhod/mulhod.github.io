@@ -85,8 +85,9 @@ html, body {
 }
 
 .footer, .push {
-    height: 4em;
+    height: 2em;
     color: #5E2612;
+
 }
 
 .link {
@@ -103,10 +104,14 @@ html, body {
     border-radius: 10px 10px 0px 0px;
 }
 
-h1.trigger{
+h1.trigger {
     margin-bottom:7px;
     margin-top:-5px;
     cursor:pointer;
+}
+
+monospace {
+    font-family: monospace;
 }
 
 /* not sure why you have 3 different toggle container things here,
