@@ -1,0 +1,11 @@
+theme: jekyll-theme-cayman
+main_url: https://mulhod.github.io
+name: Matt Mulholland
+main_links:
+  github: https://github.com/mulhod
+  linkedin: https://www.linkedin.com/in/matthew-mulholland-3502a92a/
+disqus:
+  shortname: mulhod-github-io
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
