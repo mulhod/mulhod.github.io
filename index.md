@@ -7,7 +7,7 @@ jquery: true
 
 ## About me 👋
 
-<img align="left" width="300" height="300" style="padding-right: 20px; padding-bottom: 10px;" src="/assets/mattpic.jpg">
+<img align="left" width="300" height="300" style="padding-right: 20px; padding-bottom: 10px;" src="/assets/IMG_20200919_115900.jpg">
 
 I'm a Research Engineer at [Educational Testing Service](ets.org). I have worked at ETS in the NLP/Speech group doing automated scoring since 2011, first as a senior research assistant, then as an assistant research engineer and associated research engineer, and now as a research engineer since mid-2018.
 My research interests include natural language and speech processing and machine learning, especially in relation to applications to automated scoring technology.
