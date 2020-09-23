@@ -20,7 +20,6 @@ I obtained a master's degree in Applied Linguistics (with a certificate in Compu
 - [`skll`](https://github.com/EducationalTestingService/skll): Wrapper around `scikit-learn` for running experiments via configuration files, etc.
 - [`gridmap`](https://github.com/pygridtools/gridmap): Run Python functions on a grid engine cluster
 - [`RSMTool`](https://github.com/EducationalTestingService/rsmtool): Rater Scoring Modeling Tool
-- I've also contributed to [`allennlp`](https://github.com/allenai/allennlp) recently
 
 ## Research Collaborations
 
