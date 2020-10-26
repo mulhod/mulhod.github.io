@@ -15,11 +15,28 @@ Programming interests: Python, Rust, Java, NLP and machine learning with `spaCy`
 
 I obtained a master's degree in Applied Linguistics (with a certificate in Computational Linguistics) from Montclair State University in 2016 and a bachelor's degree (major in English and Linguistics) from University of Pennsylvania in 2008.
 
+<div id="instagram-feed1" class="instagram-feed"></div>
+
 ## GitHub Repositories I Contribute to
 
 - [`skll`](https://github.com/EducationalTestingService/skll): Wrapper around `scikit-learn` for running experiments via configuration files, etc.
 - [`gridmap`](https://github.com/pygridtools/gridmap): Run Python functions on a grid engine cluster
 - [`RSMTool`](https://github.com/EducationalTestingService/rsmtool): Rater Scoring Modeling Tool
+
+<div id="instagram-feed1" class="instagram-feed"></div>
+
+## Blog Posts
+
+<ul>
+   {% for post in site.posts %}
+   <li>
+     <a href="{{ post.url }}">{{ post.title }}</a>
+     - {{post.description }}
+   </li>
+   {% endfor %}
+</ul>
+
+<div id="instagram-feed1" class="instagram-feed"></div>
 
 ## Research Collaborations
 
@@ -51,15 +68,3 @@ I obtained a master's degree in Applied Linguistics (with a certificate in Compu
 
 
 <div id="instagram-feed1" class="instagram-feed"></div>
-
-<!-- ## Other posts -->
-
-<!-- <ul> -->
-<!--   {% for post in site.posts %} -->
-<!--   <li> -->
-<!--     <a href="{{ post.url }}">{{ post.title }}</a> -->
-<!--     - <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time> -->
-<!--     <p>{{ post.description }}</p> -->
-<!--   </li> -->
-<!--   {% endfor %} -->
-<!-- </ul> -->
