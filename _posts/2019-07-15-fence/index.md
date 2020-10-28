@@ -3,6 +3,7 @@ layout: post
 title: Fence Construction
 description: Replacing the fence around the house
 mathjax: true
+picture: /assets/fence/fence11.jpg
 comments: false
 ---
 

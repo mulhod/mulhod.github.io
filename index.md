@@ -30,7 +30,7 @@ I obtained a master's degree in Applied Linguistics (with a certificate in Compu
 <ul>
    {% for post in site.posts %}
    <li>
-     <a href="{{ post.url }}">{{ post.title }}</a>
+     <a href="{{ post.url }}"><img src="{{ post.picture }}" class="blog_image_icon" width="130" height="90" alt="{{ post.title }}">   {{ post.title }}</a>
      - {{post.description }}
    </li>
    {% endfor %}
