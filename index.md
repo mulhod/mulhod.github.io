@@ -9,15 +9,17 @@ jquery: true
 
 <img align="left" width="300" height="300" style="padding-right: 20px; padding-bottom: 10px;" src="/assets/mattpic.jpg">
 
-I'm a Research Engineer at [Educational Testing Service](https://ets.org). I have worked at ETS in the NLP/Speech group doing automated scoring since 2011, first as a senior research assistant, then as an assistant research engineer and associated research engineer, and now as a research engineer since mid-2018.
+I'm a Research Engineer, NLP at [Educational Testing Service](https://ets.org). I have worked at ETS in the NLP/Speech group doing automated scoring since 2011, first as a senior research assistant, then as an assistant research engineer and associated research engineer, and now as a research engineer since mid-2018.
 My research interests include natural language and speech processing and machine learning, especially in relation to applications to automated scoring technology.
-Programming interests: Python, Rust, Java, NLP and machine learning with `spaCy`, `scikit-learn`, `PyTorch`, `TensorFlow`, etc., grid engine and GPU usage, etc.
+Programming interests: Python, Rust, Java, NLP and machine learning with `spaCy`, `scikit-learn`, `PyTorch`, `transformers`, `TensorFlow`, etc., grid engine and GPU usage, etc.
 
 I obtained a master's degree in Applied Linguistics (with a certificate in Computational Linguistics) from Montclair State University in 2016 and a bachelor's degree (major in English and Linguistics) from University of Pennsylvania in 2008.
 
+Aside from publishing in NLP/speech conferences (listed below), I also have served as a reviewer for NLP conferences such as ACL, NAACL, EMNLP, and COLING.
+
 <div id="instagram-feed1" class="instagram-feed"></div>
 
-## GitHub Repositories I Contribute to
+## GitHub Repositories I Contribute to As Core Developer
 
 - [`skll`](https://github.com/EducationalTestingService/skll): Wrapper around `scikit-learn` for running experiments via configuration files, etc.
 - [`gridmap`](https://github.com/pygridtools/gridmap): Run Python functions on a grid engine cluster
@@ -40,7 +42,8 @@ I obtained a master's degree in Applied Linguistics (with a certificate in Compu
 
 ## Research Collaborations
 
-- <a href="https://www.aclweb.org/anthology/W19-5913.pdf">Scoring Interactional Aspects of Human-Machine Dialog for Language Learning and Assessment using Text Features</a>. Published in 2019 in the proceedings of the 20th Annual SIGdial Meeting on Discourse and Dialogue
+- <a href="https://arxiv.org/pdf/2008.07520.pdf">Do face masks introduce bias in speech technologies? The case of automated scoring of speaking proficiency</a>. To be published in the proceedings of the 2020 Interspeech Conference.
+- <a href="https://www.aclweb.org/anthology/W19-5913.pdf">Scoring Interactional Aspects of Human-Machine Dialog for Language Learning and Assessment using Text Features</a>. Published in 2019 in the proceedings of the 20th Annual SIGdial Meeting on Discourse and Dialogue.
 - <a href="https://www.aclweb.org/anthology/W19-4445">Application of an Automatic Plagiarism Detection System in a Large-scale Assessment of English Speaking Proficiency</a>. Published in 2019 in the proceedings of the Fourteenth Workshop on Innovative Use of NLP for Building Educational Applications.
 - <a href="https://ieeexplore.ieee.org/abstract/document/8683717">Neural Approaches to Automated Speech Scoring of Monologue and Dialogue Responses</a>. Published in the proceedings of 2019 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP).
 - <a href="https://www.aclweb.org/anthology/W19-4432">Toward Automated Content Feedback Generation for Non-native Spontaneous Speech</a>. Published in 2019 in the proceedings of the Fourteenth Workshop on Innovative Use of NLP for Building Educational Applications.
