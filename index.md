@@ -43,7 +43,7 @@ Aside from publishing in NLP/speech conferences (listed below), I also have serv
 ## Research Collaborations
 
 - Automated scoring of spontaneous speech from young learners of English using transformers. To be published in the proceedings of the 2021 SLT conference.
-- <a href="https://arxiv.org/pdf/2008.07520.pdf">Do face masks introduce bias in speech technologies? The case of automated scoring of speaking proficiency</a>. To be published in the proceedings of the 2020 INTERSPEECH conference.
+- <a href="https://isca-speech.org/archive/Interspeech_2020/pdfs/1264.pdf">Do face masks introduce bias in speech technologies? The case of automated scoring of speaking proficiency</a>. To be published in the proceedings of the 2020 INTERSPEECH conference.
 - <a href="https://www.aclweb.org/anthology/W19-5913.pdf">Scoring Interactional Aspects of Human-Machine Dialog for Language Learning and Assessment using Text Features</a>. Published in 2019 in the proceedings of the 20th Annual SIGdial Meeting on Discourse and Dialogue.
 - <a href="https://www.aclweb.org/anthology/W19-4445">Application of an Automatic Plagiarism Detection System in a Large-scale Assessment of English Speaking Proficiency</a>. Published in 2019 in the proceedings of the Fourteenth Workshop on Innovative Use of NLP for Building Educational Applications.
 - <a href="https://ieeexplore.ieee.org/abstract/document/8683717">Neural Approaches to Automated Speech Scoring of Monologue and Dialogue Responses</a>. Published in the proceedings of 2019 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP).
