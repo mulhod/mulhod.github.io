@@ -9,21 +9,34 @@ jquery: true
 
 <img align="left" width="300" height="300" style="padding-right: 20px; padding-bottom: 10px;" src="/assets/mattpic.jpg">
 
-I'm a Research Engineer, NLP at [Educational Testing Service](https://ets.org). I have worked at ETS in the NLP/Speech group doing automated scoring since 2011, first as a senior research assistant, then as an assistant research engineer and associated research engineer, and now as a research engineer since mid-2018.
-My research interests include natural language and speech processing and machine learning, especially in relation to applications to automated scoring technology.
-Programming interests: Python, Rust, Java, NLP and machine learning with `spaCy`, `scikit-learn`, `PyTorch`, `transformers`, `TensorFlow`, etc., grid engine and GPU usage, etc.
+I'm a Research Engineer at [Educational Testing Service](https://ets.org).
+I have worked at ETS in the NLP/Speech group doing automated scoring since 2011,
+first as a senior research assistant, then as an assistant research engineer and
+associate research engineer, and now as a research engineer since mid-2018.
+My research interests include natural language and speech processing and machine
+learning, especially in relation to applications to automated scoring technology.
+Programming interests: Python, Rust, Java, NLP and machine learning with `spaCy`,
+`scikit-learn`, `PyTorch`, `transformers`, `TensorFlow`, etc., grid engine and
+GPU usage, etc.
 
-I obtained a master's degree in Applied Linguistics (with a certificate in Computational Linguistics) from Montclair State University in 2016 and a bachelor's degree (major in English and Linguistics) from University of Pennsylvania in 2008.
+I obtained a master's degree in Applied Linguistics (with a certificate in
+Computational Linguistics) from Montclair State University in 2016 and a
+bachelor's degree (major in English and Linguistics) from University of
+Pennsylvania in 2008.
 
-Aside from publishing in NLP/speech conferences (listed below), I also have served as a reviewer for NLP conferences such as ACL, NAACL, EMNLP, and COLING.
+Aside from publishing in NLP/speech conferences (listed below), I also have
+served as a reviewer for NLP conferences such as ACL, NAACL, EMNLP, and COLING.
 
 <div id="instagram-feed1" class="instagram-feed"></div>
 
 ## GitHub Repositories I Contribute to As Core Developer
 
-- [`skll`](https://github.com/EducationalTestingService/skll): Wrapper around `scikit-learn` for running experiments via configuration files, etc.
-- [`gridmap`](https://github.com/pygridtools/gridmap): Run Python functions on a grid engine cluster
-- [`RSMTool`](https://github.com/EducationalTestingService/rsmtool): Rater Scoring Modeling Tool
+- [`skll`](https://github.com/EducationalTestingService/skll): Wrapper around
+  `scikit-learn` for running experiments via configuration files, etc.
+- [`gridmap`](https://github.com/pygridtools/gridmap): Run Python functions on a
+  grid engine cluster
+- [`RSMTool`](https://github.com/EducationalTestingService/rsmtool): Rater
+  Scoring Modeling Tool
 
 <div id="instagram-feed1" class="instagram-feed"></div>
 
