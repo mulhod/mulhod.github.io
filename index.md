@@ -9,15 +9,16 @@ jquery: true
 
 <img align="left" width="300" height="300" style="padding-right: 20px; padding-bottom: 10px;" src="/assets/mattpic.jpg">
 
-I'm a Research Engineer at [Educational Testing Service](https://ets.org).
-I have worked at ETS in the NLP/Speech group doing automated scoring since 2011,
-first as a senior research assistant, then as an assistant research engineer and
-associate research engineer, and now as a research engineer since mid-2018.
-My research interests include natural language and speech processing and machine
-learning, especially in relation to applications to automated scoring technology.
-Programming interests: Python, Rust, Java, NLP and machine learning with `spaCy`,
-`scikit-learn`, `PyTorch`, `transformers`, `TensorFlow`, etc., grid engine and
-GPU usage, etc.
+I'm a senior research engineer at [Educational Testing Service](https://ets.org).
+I have worked at ETS in the NLP lab as part of the architecture and content
+assessment/feedback teams (formerly, the NLP/Speech automated scoring group)
+since 2011, first as a senior research assistant, then assistant research
+engineer, associate research engineer, research engineer, and now as a senior
+research engineer since early 2021. My research interests include natural
+language and speech processing and machine learning, especially in relation to
+applications to automated scoring technology. Programming interests: Python,
+Java, Rust, NLP and machine learning with `scikit-learn`, `PyTorch`,
+`transformers`, `TensorFlow`, etc., grid engine and GPU usage, etc.
 
 I obtained a master's degree in Applied Linguistics (with a certificate in
 Computational Linguistics) from Montclair State University in 2016 and a
