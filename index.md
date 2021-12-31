@@ -7,7 +7,7 @@ jquery: true
 
 ## About me 👋
 
-<img align="left" width="300" height="300" style="padding-right: 20px; padding-bottom: 10px;" src="/assets/mattpic.jpg">
+<img align="left" width="250" height="300" style="padding-right: 20px; padding-bottom: 10px;" src="/assets/mattpic.jpg">
 
 I'm a senior research engineer at [Educational Testing Service](https://ets.org)
 and (for at least the Spring semester) an adjunct professor in the
