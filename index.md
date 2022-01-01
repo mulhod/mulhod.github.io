@@ -7,10 +7,10 @@ jquery: true
 
 ## About me 👋
 
-<img align="left" width="250" height="300" style="padding-right: 20px; padding-bottom: 10px;" src="/assets/mattpic.jpg">
+<img align="left" width="225" height="300" style="padding-right: 20px; padding-bottom: 10px;" src="/assets/mattpic.jpg">
 
 I'm a senior research engineer at [Educational Testing Service](https://ets.org)
-and (for at least the Spring semester) an adjunct professor in the
+and (for at least the Spring 2022 semester) an adjunct professor in the
 [Montclair linguistics department](https://www.montclair.edu/linguistics/).
 I have worked at ETS in the NLP lab as part of the architecture, content
 assessment/feedback, etc. teams (formerly, the NLP/Speech automated scoring
@@ -36,7 +36,7 @@ served as a reviewer for NLP conferences such as ACL, NAACL, EMNLP, and COLING.
 
 ## Courses Taught
 
-- [APLN 581: Linguistic Annotation](https://www.coursicle.com/montclair/courses/APLN/581/)
+- [APLN 581: Linguistic Annotation](https://www.coursicle.com/montclair/courses/APLN/581/), Spring 2022
 
 ## GitHub Repositories I Contribute to As Core Developer
 
