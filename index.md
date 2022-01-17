@@ -10,19 +10,16 @@ jquery: true
 <img align="left" width="225" height="300" style="padding-right: 20px; padding-bottom: 10px;" src="/assets/mattpic.jpg">
 
 I'm a senior research engineer at [Educational Testing Service](https://ets.org)
-and (for at least the Spring 2022 semester) an adjunct professor in the
+and (for the Spring 2022 semester, at least) an adjunct professor in the
 [Montclair linguistics department](https://www.montclair.edu/linguistics/).
 I have worked at ETS in the NLP lab as part of the architecture, content
 assessment/feedback, etc. teams (formerly, the NLP/Speech automated scoring
-group) since 2011, first as a senior research assistant, then assistant
-research engineer, associate research engineer, research engineer, and now as a
-senior research engineer since early 2021. I am also an adjunct professor at
-Montclair State University, where I teach a course on lingustic annotation,
-My research interests include natural language and speech processing and
-machine learning, especially in relation to applications to automated scoring
-technology. Programming interests: Python, Java, Rust, NLP and machine learning
-with `scikit-learn`, `PyTorch`, `transformers`, `TensorFlow`, etc., grid engine
-and GPU usage, etc.
+group) since 2011. I am currently teaching a course on lingustic annotation at
+Montclair State University. My research interests include natural language and
+speech processing and machine learning, especially in relation to applications
+to automated scoring technology. Programming interests: Python, Java, Rust,
+NLP and machine learning with `scikit-learn`, `PyTorch`, `transformers`,
+`TensorFlow`, etc., grid engine and GPU usage, etc.
 
 I obtained a master's degree in Applied Linguistics (with a certificate in
 Computational Linguistics) from Montclair State University in 2016 and a
@@ -36,7 +33,7 @@ served as a reviewer for NLP conferences such as ACL, NAACL, EMNLP, and COLING.
 
 ## Courses Taught
 
-- [APLN 581: Linguistic Annotation](https://www.coursicle.com/montclair/courses/APLN/581/), Spring 2022
+- [APLN 581/LNGN 340: Linguistic Annotation](https://www.coursicle.com/montclair/courses/APLN/581/), Spring 2022
 
 ## GitHub Repositories I Contribute to As Core Developer
 
