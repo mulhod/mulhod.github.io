@@ -9,19 +9,19 @@ jquery: true
 
 <img align="left" width="215" height="300" style="padding-right: 20px; padding-bottom: 10px;" src="/assets/mattpic.jpg">
 
-I'm a senior research engineer at [Educational Testing Service](https://ets.org)
-AI Labs. Since 2011, I have worked at ETS in many teams, including NLP
-architecture, content assessment/feedback, etc. since 2011. I have also
-recently taught a course on lingustic annotation at Montclair State
-University. My research interests include natural language and speech
-processing and machine learning, especially in relation to applications
-to automated scoring technology. Programming interests: Python, Java, Rust,
-NLP and machine learning with `scikit-learn`, `PyTorch`, `transformers`,
-`TensorFlow`, etc., grid engine and GPU usage, etc.
+I'm a managing senior research engineer at
+[Educational Testing Service](https://ets.org) AI Labs. Since 2011 I have
+worked at ETS as a part of many teams, including NLP architecture, content
+assessment/feedback, etc. I have also recently taught a course on lingustic
+annotation at Montclair State University. My research interests include
+natural language and speech processing and machine learning, especially in
+relation to applications to automated scoring technology. My interests include
+Python, AWS, machine learning with `scikit-learn`, `transformers`, `allennlp`,
+etc., MLOps, NLP, Java, Bash, Rust, etc.
 
 I obtained a master's degree in Applied Linguistics (with a certificate in
 Computational Linguistics) from Montclair State University in 2016 and a
-bachelor's degree (major in English and Linguistics) from University of
+bachelor's degree (double major in English and Linguistics) from University of
 Pennsylvania in 2008.
 
 Aside from publishing in NLP/speech conferences (listed below), I also have
