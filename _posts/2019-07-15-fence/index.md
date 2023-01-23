@@ -35,7 +35,7 @@ Below I show a lot of pictures from building, which took over 2 months. We built
 
 It was a lot of work but we think it really paid off in the end. All in all, it cost about $2500 and, with some continuing maintenance (extra coats of stain), it has held up extremely well. We have gotten a ton of compliments from neighbors. Some that we hadn't met yet actually referred to us the "fence people" later when it came up in conversation!
 
-Addendum: In 2020 (during the pandemic), we decided to replace part of the existing structure at the back entrance. (This was part of the old fence that we had not replaced, actually, since the bulk of it had clearly been installed some time after the main fence). The entrance had a wooden arch that had decayed so much that it was falling apart over our heads! We sketched a diagram for a replacement pergola design and I set to work building something that would be a literal drop-in replacement. Below are the pictures!
+Addendum #1: In 2020, we decided to replace part of the existing structure at the back entrance. (This was part of the old fence that we had not replaced, actually, since the bulk of it had clearly been installed some time after the main fence). The entrance had a wooden arch that had decayed so much that it was falling apart over our heads! We sketched a diagram for a replacement pergola design and I set to work building something that would be a literal drop-in replacement. Below are the pictures!
 
 ![pergola picture 1](/assets/fence/pergola1.jpg)
 ![pergola picture 2](/assets/fence/pergola2.jpg)
@@ -43,3 +43,22 @@ Addendum: In 2020 (during the pandemic), we decided to replace part of the exist
 ![pergola picture 4](/assets/fence/pergola4.jpg)
 ![pergola picture 5](/assets/fence/pergola5.jpg)
 ![pergola picture 6](/assets/fence/pergola6.jpg)
+
+Addendum #2: In 2022, after we decided to demolish our shed and get a new one, we took the opportunity
+to demolish an old stretch of fence separating the shed from a driveway running between the houses
+on our block. We wanted to install a gate at the edge of the shed so that we could enter/exit our
+property directly from the driveway. (We also put doors on both sides of the shed, so that we could
+walk through the shed directly out into the driveway.) So, we designed a simple gate and made use
+of some spare sheets of faux ivy screen. We wanted something that looked modern and unique, similar
+in some ways to the fence. On the driveway side of our property, we have a bunch of hedges that we
+wanted to keep, so we hit upon the idea of replacing the gnarled old fence with sheets of faux ivy
+to retain some of the privacy the old fence gave us. First, we installed a post. Then, we constructed
+the new gate and attached it to the post and directly to the edge of the shed.
+
+![gate picture 1](/assets/fence/gate1.jpg)
+![gate picture 2](/assets/fence/gate2.jpg)
+![gate picture 3](/assets/fence/gate3.jpg)
+![gate picture 4](/assets/fence/gate4.jpg)
+![gate picture 5](/assets/fence/gate5.jpg)
+![gate picture 6](/assets/fence/gate6.jpg)
+![gate picture 7](/assets/fence/gate7.jpg)
