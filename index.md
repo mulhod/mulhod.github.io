@@ -12,14 +12,14 @@ jquery: true
 I'm a managing senior research engineer at
 [Educational Testing Service](https://ets.org) AI Labs. Since 2011 I have
 worked at ETS as a part of many teams, including NLP architecture, content
-assessment/feedback, etc. I have also recently taught a course on lingustic
-annotation at Montclair State University (and plan to teach another in the
-summer of 2023 on applied NLP/ML engineering!). My research interests include
-natural language and speech processing and machine learning, especially in
-relation to applications to automated scoring technology. My engineering
-interests include Python, `scikit-learn`, `transformers`, `allennlp`,
-MLOps (generally), `aws-cdk`, `terraform`, Docker, Conda, AWS (`SageMaker`,
-`ECS`, `Lambda`, `S3`), `FastAPI`, Java, Bash, Rust, etc.
+assessment/feedback, etc. I also am teaching/have recently taught courses on
+applied NLP engineering and lingustic annotation at Montclair State
+University. My research interests include natural language and speech
+processing and machine learning, especially in relation to applications to
+automated scoring technology. My engineering interests include Python,
+`scikit-learn`, `transformers`, `allennlp`, MLOps (generally), `aws-cdk`,
+`terraform`, Docker, Conda, AWS (`SageMaker`, `ECS`, `Lambda`, `S3`),
+`FastAPI`, Java, Bash, Rust, etc.
 
 I obtained a master's degree in Applied Linguistics (with a certificate in
 Computational Linguistics) from Montclair State University in 2016 and a
@@ -33,6 +33,7 @@ served as a reviewer for NLP conferences such as ACL, NAACL, EMNLP, and COLING.
 
 ## Courses Taught at Montclair State University
 
+- [APLN 590/LNGN 450: Special Topics in Applied Linguistics: Applied Natural Language Processing](http://catalog.montclair.edu/coursesaz/apln/), Summer 2023
 - [APLN 581/LNGN 340: Linguistic Annotation](https://www.coursicle.com/montclair/courses/APLN/581/), Spring 2022
 
 ## GitHub Repositories I Contribute to As Core Developer
