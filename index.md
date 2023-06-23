@@ -17,9 +17,9 @@ applied NLP engineering and lingustic annotation at Montclair State
 University. My research interests include natural language and speech
 processing and machine learning, especially in relation to applications to
 automated scoring technology. My engineering interests include Python,
-`scikit-learn`, `transformers`, `allennlp`, MLOps (generally), `aws-cdk`,
-`terraform`, Docker, Conda, AWS (`SageMaker`, `ECS`, `Lambda`, `S3`),
-`FastAPI`, Java, Bash, Rust, etc.
+`scikit-learn`, `transformers`, MLOps (generally), `aws-cdk`, `terraform`,
+Docker, Conda, AWS (`SageMaker`, `ECS`, `Lambda`, `S3`), `FastAPI`, Java,
+Bash, Rust, etc.
 
 I obtained a master's degree in Applied Linguistics (with a certificate in
 Computational Linguistics) from Montclair State University in 2016 and a
