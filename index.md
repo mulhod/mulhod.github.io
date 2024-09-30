@@ -9,17 +9,15 @@ jquery: true
 
 <img align="left" width="215" height="300" style="padding-right: 20px; padding-bottom: 10px;" src="/assets/mattpic.jpg">
 
-I'm a managing senior research engineer at
-[Educational Testing Service](https://ets.org) AI Labs. Since 2011 I have
-worked at ETS as a part of many teams, including NLP architecture, content
-assessment/feedback, etc. I also am teaching/have recently taught courses on
-applied NLP engineering and lingustic annotation at Montclair State
-University. My research interests include natural language and speech
-processing and machine learning, especially in relation to applications to
-automated scoring technology. My engineering interests include Python,
-`scikit-learn`, `transformers`, MLOps (generally), `aws-cdk`, `terraform`,
-Docker, Conda, AWS (`SageMaker`, `ECS`, `Lambda`, `S3`), `FastAPI`, Java,
-Bash, Rust, etc.
+I'm a senior AI software engineer at [Lattice](https://lattice.com/). From
+2011 to 2024 I worked at [Educational Testing Service](https://ets.org) as an
+engineer. I also have taught courses on applied NLP engineering and lingustic
+annotation at Montclair State University. My research interests include natural
+language and speech processing and machine learning, especially in relation to
+applications to automated scoring technology. My engineering interests include
+Python, `scikit-learn`, `transformers`, MLOps (generally), `aws-cdk`,
+`terraform`, Docker, Conda, AWS (`SageMaker`, `ECS`, `Lambda`, `S3`), `FastAPI`,
+Java, Bash, Rust, etc.
 
 I obtained a master's degree in Applied Linguistics (with a certificate in
 Computational Linguistics) from Montclair State University in 2016 and a
