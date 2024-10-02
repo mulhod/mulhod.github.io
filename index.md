@@ -9,7 +9,7 @@ jquery: true
 
 <img align="left" width="215" height="300" style="padding-right: 20px; padding-bottom: 10px;" src="/assets/mattpic.jpg">
 
-I'm a senior AI software engineer at [Lattice](https://lattice.com/). From
+I'm a senior software engineer at [Lattice @ AI](https://lattice.com/ai). From
 2011 to 2024 I worked at [Educational Testing Service](https://ets.org) as an
 engineer. I also have taught courses on applied NLP engineering and lingustic
 annotation at Montclair State University. My research interests include natural
